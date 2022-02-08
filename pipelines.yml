@@ -40,7 +40,7 @@ pipelines:
           affinityGroup: dbp_group
           dockerFileLocation: .
           dockerFileName: Dockerfile
-          dockerImageName: default-docker-local/afeoscyc-mw.cec.lab.emc.com/devops/alpine/python/3.8.10-r0  # replace with your image path and name
+          dockerImageName: afeoscyc-mw.cec.lab.emc.com/devops/alpine/python/3.8.10-r0  # replace with your image path and name
           dockerImageTag: ${run_number}
           inputResources:
             - name: dbp_repo
