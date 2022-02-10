@@ -70,7 +70,7 @@ pipelines:
       - name: promote_dbp_build
         type: PromoteBuild
         configuration:
-          targetRepository: demo-pipelines
+          targetRepository: dev-docker-local 
           integrations:
             - name: art
           inputResources:
